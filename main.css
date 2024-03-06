@@ -127,6 +127,31 @@ form p {
     text-align: left;
 }
 
+.form__group label {
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.form__group select {
+    border-radius: 15px;
+    height: 31px;
+    font-size: medium;
+    padding-left: 10px;
+}
+
+.selected_input {
+    display: none;
+    color: grey;
+}
+
+.form__group input {
+    border-radius: 15px;
+    height: 25px;
+    font-size: medium;
+    padding-left: 10px;
+}
+
+
 .form form {
     display: grid;
     grid-gap: 20px;
@@ -267,22 +292,40 @@ h3 {
 }
 
 @media screen and (min-width: 720px) and (max-width: 1024px) {
+
+    header a {
+        font-size: 20px;
+    }
+
     .about {
         padding-right: 20px;
         padding-left: 20px;
         align-items: normal;
     }
     .about h1 {
-        font-size: 36px;
-        line-height: 40px;
+        font-size: 45px;
+        line-height: 60px;
     }
+
+    .about p {
+        font-size: 22px;
+    }
+
     .header__logo {
         height: 20px;
     }
 
     .form h1 {
-        font-size: 36px;
+        font-size: 45px;
         line-height: 40px;
+    }
+
+    .form p {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 20px;
     }
     .about__sun-image {
         height: 75px;
@@ -337,5 +380,9 @@ h3 {
 
     h3 {
         margin-bottom: 10px;
+    }
+
+    .footer__group {
+        margin-right: 40px;
     }
 }
