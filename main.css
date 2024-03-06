@@ -37,6 +37,21 @@ header a {
     margin-right: 25px;
 }
 
+.animate__fadeInLeft {
+    animation-duration: 2s;
+    --animate-repeat: 0;
+}
+
+.animate__fadeInRight {
+    animation-duration: 2s;
+    --animate-repeat: 0;
+}
+
+.animate__rotateIn {
+    animation-duration: 3s;
+    --animate-repeat: 0;
+}
+
 button {
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
@@ -47,6 +62,11 @@ button {
     cursor: pointer;
     box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
     padding: 15px;
+}
+
+.fa-chevron-right {
+    color:#fff;
+    vertical-align: -0.175em;
 }
 
 .about__image {
