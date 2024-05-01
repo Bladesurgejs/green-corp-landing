@@ -1,0 +1,106 @@
+@media screen and (max-width: 720px) {
+    .about {
+        padding: 10px;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .about h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .header__logo {
+        height: 20px;
+    }
+
+    .card {
+        padding: 35px 40px 25px 40px;
+
+    }
+
+    .form {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .form h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .about__sun-image {
+        height: 75px;
+        width: 75px;
+    }
+    .about__image {
+        width: 280px;
+    }
+
+    .about__images {
+        padding-top:50px;
+    }
+
+    .about__info {
+        padding-bottom: 50px;
+        text-align: left;
+    }
+
+    .form__group option {
+        padding: 10px;
+    }
+
+    .form__group {
+        padding: 10px;
+    }
+
+    .form__group input {
+        height: 50px;
+        border-radius: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .form__group select {
+        height: 50px;
+        border-radius: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .form__group option {
+        width: 100px;
+        margin-bottom: 15px;
+    }
+
+    .form__group label {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .form__submit {
+        margin: 10px;
+    }
+
+    footer {
+        padding: 10px 10px;
+    }
+
+    .footer__container {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    h3 {
+        padding-bottom: 10px;
+    }
+
+    .features {
+        margin: 10px 10px 10px 10px;
+        grid-template-columns: auto;
+        grid-gap: 30px;
+    }
+
+    .cards {
+        padding: 20px;
+    }
+}
+

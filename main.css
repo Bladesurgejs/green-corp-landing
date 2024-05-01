@@ -29,6 +29,7 @@ body {
 a {
     text-decoration: none;
     color: #213053;
+    top:0;
 }
 
 header a {
@@ -217,192 +218,62 @@ footer {
 
 h3 {
     font-size: 16px;
-    padding-bottom: 30px;
+    margin-bottom: 46px;
     opacity: 0.7;
 }
 
-@media screen and (min-width: 320px) and (max-width: 719px) {
-    .about {
-        padding: 10px;
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
-    }
-    .about h1 {
-        font-size: 36px;
-        line-height: 40px;
-    }
-    .header__logo {
-        height: 20px;
-    }
-    .form {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    .form h1 {
-        font-size: 36px;
-        line-height: 40px;
-    }
-    .about__sun-image {
-        height: 75px;
-        width: 75px;
-    }
-    .about__image {
-        width: 280px;
-    }
-
-    .about__images {
-        padding-top:50px;
-    }
-
-    .about__info {
-        padding-bottom: 50px;
-        text-align: left;
-    }
-
-    .form__group option {
-        padding: 10px;
-    }
-
-    .form__group {
-        padding: 10px;
-    }
-
-    .form__group input {
-        height: 50px;
-        border-radius: 15px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .form__group select {
-        height: 50px;
-        border-radius: 15px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .form__group option {
-        width: 100px;
-        margin-bottom: 15px;
-    }
-
-    .form__group label {
-        font-size: 20px;
-        line-height: 40px;
-    }
-
-    .form__submit {
-        margin: 10px;
-    }
-
-    footer {
-        padding: 10px 10px;
-    }
-
-    .footer__container {
-        flex-wrap: wrap;
-        flex-direction: column;
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-
-    h3 {
-        padding-bottom: 10px;
-    }
+.features {
+    background-color: white;
+    margin: 115px 60px 50px 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
 }
 
-@media screen and (min-width: 720px) and (max-width: 1024px) {
-
-    header a {
-        font-size: 20px;
-    }
-
-    .about {
-        padding-right: 20px;
-        padding-left: 20px;
-        align-items: normal;
-    }
-    .about h1 {
-        font-size: 45px;
-        line-height: 60px;
-    }
-
-    .about p {
-        font-size: 22px;
-    }
-
-    .header__logo {
-        height: 20px;
-    }
-
-    .form h1 {
-        font-size: 45px;
-        line-height: 40px;
-    }
-
-    .form p {
-        font-size: 20px;
-    }
-
-    button {
-        font-size: 20px;
-    }
-    .about__sun-image {
-        height: 75px;
-        width: 75px;
-    }
-    .about__image {
-        width: 280px;
-    }
-
-    .about__images {
-        padding-top:50px;
-        padding-left: 15px;
-    }
-
-    .about__info {
-        padding-bottom: 50px;
-        text-align: left;
-    }
-
-    .form__group option {
-        padding: 10px;
-    }
-
-    .form__group input {
-        height: 50px;
-        border-radius: 15px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .form__group select {
-        height: 50px;
-        border-radius: 15px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .form__group option {
-        width: 100px;
-    }
-
-    .form__group label {
-        font-size: 20px;
-        line-height: 40px;
-        margin-bottom: 10px;
-        opacity: 1.5;
-    }
-
-    .form__submit {
-        margin-top: 10px;
-    }
-
-    h3 {
-        margin-bottom: 10px;
-    }
-
-    .footer__group {
-        margin-right: 40px;
-    }
+.cards {
+    border: 1px solid #D9E4E6;
+    border-radius: 5px;
+    padding: 35px 40px 25px 40px;
 }
+
+.cards h3 {
+    margin-bottom: 20px;
+}
+
+.cards p {
+    font-size: 16px;
+    line-height: 16px;
+    opacity: 0.8;
+}
+
+.card_logo {
+    font-weight: 700;
+    background-color: #eaeff9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border: solid #eaeff9;
+    border-radius: 50%;
+    font-size: 32px;
+}
+
+.font_logo {
+    color: #ad1714;
+}
+
+.fa-chart-line {
+    color: #22a030;
+}
+
+.fa-solar-panel {
+    color: #ffb406;
+}
+
+.futures__border {
+    margin-bottom: 50px;
+    border-bottom: 1px solid #E6EAF4;
+}
+
+
